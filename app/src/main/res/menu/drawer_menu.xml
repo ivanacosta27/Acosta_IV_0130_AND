@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_first"
+        android:title="First Option"
+        android:icon="@drawable/number_1" />
+
+    <item
+        android:id="@+id/nav_second"
+        android:title="Second Option"
+        android:icon="@drawable/number_2" />
+
+    <item
+        android:id="@+id/nav_third"
+        android:title="Third Option"
+        android:icon="@drawable/number_3">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:title="Exit"
+                android:icon="@drawable/ic_exit" />
+        </menu>
+    </item>
+</menu>
