@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.acosta.bottomnav.ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/calculatorFragment"
+        android:name="com.acosta.bottomnav.CalculatorFragment"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.acosta.bottomnav.ListFragment"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/newsDetailsFragment"
+        android:name="com.acosta.bottomnav.NewsDetailsFragment"
+        tools:layout="@layout/fragment_news_details" />
+
+</navigation>
